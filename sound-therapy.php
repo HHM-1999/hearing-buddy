@@ -1,0 +1,162 @@
+<?php include_once "common/config.php"; ?>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title><?php echo $sSiteTitle; ?></title>
+
+    <?php echo $sAddSense;
+    echo $sGAnalytics;
+    echo $sGTagHead;
+    echo $sDomainVerification;
+    echo $sMSClarity; ?>
+
+    <meta name="description" content="<?php echo $sSiteTitle; ?>">
+    <meta name="keywords" content="<?php echo $sSiteTitle; ?>">
+
+    <meta name="author" content="<?php echo $sAuthor; ?>">
+    <meta name="Developer" content="<?php echo $sDeveloper; ?>">
+    <meta name="resource-type" content="document">
+    <meta name="contact" content="<?php echo $sEmail; ?>">
+    <meta name="copyright" content="Copyright (c) <?php echo gmdate("Y"); ?>. All Rights &reg; Reserved by <?php echo $sSiteURL; ?>.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="googlebot-news" content="index, follow">
+    <meta name="msnbot" content="index, follow">
+
+    <meta property="fb:pages" content="<?php echo $sFBPageID; ?>">
+    <meta property="fb:app_id" content="<?php echo $sAppId; ?>">
+    <meta property="og:site_name" content="<?php echo $sSiteName; ?>">
+    <meta property="og:title" content="<?php echo $sSiteTitle; ?>">
+    <meta property="og:description" content="<?php echo $sSiteTitle; ?>">
+    <meta property="og:url" content="<?php echo $sSiteURL; ?>">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="<?php echo $sLogoURLfb; ?>">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<?php echo $sSiteName; ?>">
+    <meta name="twitter:title" content="<?php echo $sSiteTitle; ?>">
+    <meta name="twitter:description" content="<?php echo $sSiteTitle; ?>">
+    <meta name="twitter:image" content="<?php echo $sLogoURLfb; ?>">
+
+    <link rel="image_src" href="<?php echo $sLogoURLfb; ?>">
+    <link rel="canonical" href="<?php echo $sSiteURL; ?>">
+
+    <link type="image/x-icon" rel="shortcut icon" href="<?php echo $sFavicon; ?>">
+    <link type="image/x-icon" rel="icon" href="<?php echo $sFavicon; ?>">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Titillium+Web:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <?php
+    echo $sCSSBootStrap;
+    echo $sCSSFontAwesome;
+    echo $sCSSSlick;
+    echo $sCSSEMM;
+    ?>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Organization",
+            "name": "<?php echo $sSiteName; ?>",
+            "url": "<?php echo $sSiteURL; ?>",
+            "logo": "<?php echo $sLogoURL; ?>",
+            "alternateName": "<?php echo $sInitialBN; ?>",
+            "sameAs": [
+                "<?php echo $sSocialPageFB; ?>"
+            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "<?php echo $sSiteURL; ?>"
+            }]
+        }
+    </script>
+
+</head>
+
+<body>
+    <?php
+    echo $sGTagBody;
+    echo $sFbRoot; ?>
+
+    <?php include_once "common/header.php"; ?>
+
+    <!-- Back to top button -->
+    <a id="button"><i class="fas fa-chevron-up"></i></a>
+
+    <main>
+        <div class="page-heading">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Sound Therapy</h1>
+                </div>
+            </div>
+        </div>
+        <div class="hearing-aid-wrapper">
+            <div class="our-purpose-area">
+                <div class="container">
+                    <div class="purpose-section">
+                        <div class="purpose-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 pt-3">
+                                    <div class="purpose-right">
+                                        <p>Sound therapy, in general, refers to the use of external noise to alter a patient’s perception of or response to tinnitus. While sound therapies, like other tinnitus treatments, do not cure the ailment, they can greatly reduce the perceived load and intensity of tinnitus.</p>
+                                        <p>The four general mechanisms of action of sound-based therapies are as follows:</p>
+                                    </div>
+                                    <div class="purpose-right">
+                                    <p><span>Masking:</span>is the process of exposing the patient to an external noise strong enough to drown out the sound of their tinnitus partially or totally.</p>
+                                        <p><span>Distraction:</span>the use of external sound to draw a patient’s attention away from the tinnitus sound.</p>
+                                        <p><span>Habituation:</span>helping the patient’s brain redefine tinnitus as a trivial sound that can be ignored consciously.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 d-flex align-items-center ">
+                                <div class="purpose-right  ">
+                                    <div class="tinnitud-img pt-0">
+                                    <img src="<?php echo $sSiteURL; ?>media/imgAll/bg/sound-therapy-734x734.jpg" class="img-fluid ">
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-md-12 pt-3">
+                                    <div class="purpose-right">
+                                        <h3>Common Sound Therapy Devices:</h3>
+                                        <p><span>Sound Masking Devices:</span>It’s usually white noise, pink noise, natural noises, or other faint sounds. Sound machines can partially or completely conceal a patient’s tinnitus, allowing them to relax and temporarily relieve their symptoms.</p>
+                                        <p>Simple table-top or bedside sound maskers with pre-set sound choices. However, personal media players, laptops, radios, and TVs can all be used to mask. Electric fans or table fountains can also hide noise. A patient’s favourable emotional responses are the most effective concealing sounds.</p>
+                                        <p>However, sound masking devices have limited long-term effectiveness in lowering overall perception of tinnitus.</p>
+                                        <p><span>Hearing Aids:</span>Hearing aids can be classified as a form of sound treatment because they amplify external noise in order to increase auditory stimulation and shift attention away from tinnitus perception.</p>
+                                        <p><span>Combination Devices:</span>Many hearing aids now have sound generating technology that continuously sends white noise or tailored sounds to the patient. These devices combine the benefits of a hearing aid with other sound therapies, making them ideal for tinnitus sufferers with hearing loss. Also, due to their portability, these gadgets can be used semi-constantly throughout the day.</p>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+
+    </main>
+
+    <?php include_once "common/footer.php"; ?>
+
+    <?php echo $sJSjQuery;
+    echo $sPopper;
+    echo $sJSBootStrap;
+    echo $sJSEMM;
+    ?>
+</body>
+
+</html>

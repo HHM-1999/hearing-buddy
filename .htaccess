@@ -1,0 +1,414 @@
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^www.cloudlivebd.com$
+#RewriteRule ^(.*)$ https://www.cloudlivebd.com/$1 [R=301,L]
+
+
+RewriteRule ^login$ login.php
+RewriteRule ^login/$ login.php
+RewriteRule ^signup$ signup.php
+RewriteRule ^signup/$ signup.php
+
+RewriteRule ^cat$ categoryB.php
+RewriteRule ^cat/$ categoryB.php
+RewriteRule ^sub$ subCategory.php
+RewriteRule ^sub/$ subCategory.php
+RewriteRule ^special$ specategory.php
+RewriteRule ^special/$ specategory.php
+RewriteRule ^divisions$ division.php
+RewriteRule ^divisions/$ division.php
+RewriteRule ^districts$ district.php
+RewriteRule ^districts/$ district.php
+RewriteRule ^search-result$ result.php
+RewriteRule ^search-result/$ result.php
+
+
+
+RewriteRule ^about$ about-us.php
+RewriteRule ^about/$ about-us.php
+
+
+RewriteRule ^local-hearing$ local-hearing.php
+RewriteRule ^local-hearing/$ local-hearing.php
+
+
+
+RewriteRule ^independent-sa-owner$ independent-sa-owner.php
+RewriteRule ^independent-sa-owner/$ independent-sa-owner.php
+
+
+
+RewriteRule ^government-accredited$ government-accredited.php
+RewriteRule ^government-accredited/$ government-accredited.php
+
+RewriteRule ^money-back-guarantee$ money-back-guarantee.php
+RewriteRule ^money-back-guarantee/$ money-back-guarantee.php
+
+RewriteRule ^home-visit$ home-visit.php
+RewriteRule ^home-visit/$ home-visit.php
+
+
+
+
+
+RewriteRule ^services$ services.php
+RewriteRule ^services/$ services.php
+RewriteRule ^hearing-aids$ hearing-aids.php
+RewriteRule ^hearing-aids/$ hearing-aids.php
+RewriteRule ^hearing-health$ hearing-health.php
+RewriteRule ^hearing-health/$ hearing-health.php
+RewriteRule ^tinnitus-management$ tinnitus-management.php
+RewriteRule ^tinnitus-management/$ tinnitus-management.php
+RewriteRule ^our-approach$ our-approach.php
+RewriteRule ^our-approach/$ our-approach.php
+RewriteRule ^types-of-tinnitus/$ types-of-tinnitus.php
+RewriteRule ^types-of-tinnitus$ types-of-tinnitus.php
+
+RewriteRule ^buddy-pack/$ buddy-pack.php
+RewriteRule ^buddy-pack$ buddy-pack.php
+
+RewriteRule ^services-for-pensioners-and-veterans/$ services-for-pensioners-and-veterans.php
+RewriteRule ^services-for-pensioners-and-veterans$ services-for-pensioners-and-veterans.php
+
+
+RewriteRule ^choosing-a-hearing-aid/$ choosing-a-hearing-aid.php
+RewriteRule ^choosing-a-hearing-aid$ choosing-a-hearing-aid.php
+
+RewriteRule ^hearing-aid-prices/$ hearing-aid-prices.php
+RewriteRule ^hearing-aid-prices$ hearing-aid-prices.php
+
+RewriteRule ^types-of-hearing-loss/$ types-of-hearing-loss.php
+RewriteRule ^types-of-hearing-loss$ types-of-hearing-loss.php
+
+RewriteRule ^signs-of-hearing-loss/$ signs-of-hearing-loss.php
+RewriteRule ^signs-of-hearing-loss$ signs-of-hearing-loss.php
+
+RewriteRule ^treatment-option/$ treatment-option.php
+RewriteRule ^treatment-option$ treatment-option.php
+
+RewriteRule ^how-hearing-aids-can-help/$ how-hearing-aids-can-help.php
+RewriteRule ^how-hearing-aids-can-help$ how-hearing-aids-can-help.php
+
+
+RewriteRule ^preventing-hearing-loss/$ preventing-hearing-loss.php
+RewriteRule ^preventing-hearing-loss$ preventing-hearing-loss.php
+
+
+RewriteRule ^technology-in-hearing-aids-today/$ technology-in-hearing-aids-today.php
+RewriteRule ^technology-in-hearing-aids-today$ technology-in-hearing-aids-today.php
+
+RewriteRule ^types-of-hearing-aids/$ types-of-hearing-aids.php
+RewriteRule ^types-of-hearing-aids$ types-of-hearing-aids.php
+
+
+RewriteRule ^our-brands/$ our-brands.php
+RewriteRule ^our-brands$ our-brands.php
+
+RewriteRule ^where-can-i-buy-hearing-aids-from/$ where-can-i-buy-hearing-aids-from.php
+RewriteRule ^where-can-i-buy-hearing-aids-from$ where-can-i-buy-hearing-aids-from.php
+
+
+RewriteRule ^causes-of-tinnitus/$ causes-of-tinnitus.php
+RewriteRule ^causes-of-tinnitus$ causes-of-tinnitus.php
+
+RewriteRule ^managing-tinnitus/$ managing-tinnitus.php
+RewriteRule ^managing-tinnitus$ managing-tinnitus.php
+
+RewriteRule ^hearing-loss/$ hearing-loss.php
+RewriteRule ^hearing-loss$ hearing-loss.php
+
+RewriteRule ^obstructions-middle-ear/$ obstructions-middle-ear.php
+RewriteRule ^obstructions-middle-ear$ obstructions-middle-ear.php
+
+RewriteRule ^head-and-neck-trauma/$ head-and-neck-trauma.php
+RewriteRule ^head-and-neck-trauma$ head-and-neck-trauma.php
+
+RewriteRule ^temporomandibular-joint-disorder/$ temporomandibular-joint-disorder.php
+RewriteRule ^temporomandibular-joint-disorder$ temporomandibular-joint-disorder.php
+
+RewriteRule ^sinus-pressure-and-barometric-trauma/$ sinus-pressure-and-barometric-trauma.php
+RewriteRule ^sinus-pressure-and-barometric-trauma$ sinus-pressure-and-barometric-trauma.php
+
+RewriteRule ^traumatic-brain-injury/$ traumatic-brain-injury.php
+RewriteRule ^traumatic-brain-injury$ traumatic-brain-injury.php
+
+RewriteRule ^ototoxic-drugs/$ ototoxic-drugs.php
+RewriteRule ^ototoxic-drugs$ ototoxic-drugs.php
+
+RewriteRule ^other-diseases-&-medical-conditions/$ other-diseases-&-medical-conditions.php
+RewriteRule ^other-diseases-&-medical-conditions$ other-diseases-&-medical-conditions.php
+
+
+RewriteRule ^general-wellness/$ general-wellness.php
+RewriteRule ^general-wellness$ general-wellness.php
+
+RewriteRule ^hearing-aids-tinnitus/$ hearing-aids-tinnitus.php
+RewriteRule ^hearing-aids-tinnitus$ hearing-aids-tinnitus.php
+RewriteRule ^sound-therapy/$ sound-therapy.php
+RewriteRule ^sound-therapy$ sound-therapy.php
+
+RewriteRule ^behavioural-therapies/$ behavioural-therapies.php
+RewriteRule ^behavioural-therapies$ behavioural-therapies.php
+
+RewriteRule ^drug-therapies/$ drug-therapies.php
+RewriteRule ^drug-therapies$ drug-therapies.php
+
+RewriteRule ^physiological-treatments/$ physiological-treatments.php
+RewriteRule ^physiological-treatments$ physiological-treatments.php
+
+RewriteRule ^ear-wax-removal/$ ear-wax-removal.php
+RewriteRule ^ear-wax-removal$ ear-wax-removal.php
+
+RewriteRule ^hearing-screening/$ hearing-screening.php
+RewriteRule ^hearing-screening$ hearing-screening.php
+
+RewriteRule ^ear-wax-management/$ ear-wax-management.php
+RewriteRule ^ear-wax-management$ ear-wax-management.php
+
+RewriteRule ^understanding-how-hearing-works/$ understanding-how-hearing-works.php
+RewriteRule ^understanding-how-hearing-works$ understanding-how-hearing-works.php
+
+
+RewriteRule ^understanding-your-hearing-test/$ understanding-your-hearing-test.php
+RewriteRule ^understanding-your-hearing-test$ understanding-your-hearing-test.php
+
+
+RewriteRule ^communicating-and-supporting-people-with-hearing-loss/$ communicating-and-supporting-people-with-hearing-loss.php
+RewriteRule ^communicating-and-supporting-people-with-hearing-loss$ communicating-and-supporting-people-with-hearing-loss.php
+
+
+RewriteRule ^untreated-hearing-loss-why-does-it-matter/$ untreated-hearing-loss-why-does-it-matter.php
+RewriteRule ^untreated-hearing-loss-why-does-it-matter$ untreated-hearing-loss-why-does-it-matter.php
+
+
+
+
+
+RewriteRule ^90-min-initial-comprehensive-hearing-assessment/$ 90-minute-initial-comprehensive.php
+RewriteRule ^90-min-initial-comprehensive-hearing-assessment$ 90-minute-initial-comprehensive.php
+
+RewriteRule ^diagnostic-assessment/$ diagnostic-assessment.php
+RewriteRule ^diagnostic-assessment$ diagnostic-assessment.php
+
+RewriteRule ^hearing-aid-discussion/$ hearing-aid-discussion.php
+RewriteRule ^hearing-aid-discussion$ hearing-aid-discussion.php
+
+RewriteRule ^pre-employment-test/$ pre-employment-test.php
+RewriteRule ^pre-employment-test$ pre-employment-test.php
+
+RewriteRule ^custom-ear-plugs/$ custom-ear-plugs.php
+RewriteRule ^custom-ear-plugs$ custom-ear-plugs.php
+
+RewriteRule ^work-cover-assessment/$ work-cover-assessment.php
+RewriteRule ^work-cover-assessment$ work-cover-assessment.php
+
+
+RewriteRule ^hearing-aid-fitting-&-follow-up-free/$ hearing-aid-fitting-&-follow-up-free.php
+RewriteRule ^hearing-aid-fitting-&-follow-up-free$ hearing-aid-fitting-&-follow-up-free.php
+
+
+RewriteRule ^hearing-aid-check-and-adjust/$ hearing-aid-check-and-adjust.php
+RewriteRule ^hearing-aid-check-and-adjust$ hearing-aid-check-and-adjust.php
+
+RewriteRule ^end-of-warranty-recalls/$ end-of-warranty-recalls.php
+RewriteRule ^end-of-warranty-recalls$ end-of-warranty-recalls.php
+
+RewriteRule ^hearing-aids-purchased-elsewhere/$ hearing-aids-purchased-elsewhere.php
+RewriteRule ^hearing-aids-purchased-elsewhere$ hearing-aids-purchased-elsewhere.php
+
+RewriteRule ^tinnitus-assessment/$ tinnitus-assessment.php
+RewriteRule ^tinnitus-assessment$ tinnitus-assessment.php
+
+
+RewriteRule ^contact$ contact.php
+RewriteRule ^contact/$ contact.php
+
+
+RewriteRule ^privacy-policy$ privacy-policy.php
+RewriteRule ^privacy-policy/$ privacy-policy.php
+
+
+RewriteRule ^terms-&-conditions$ terms-&-conditions.php
+RewriteRule ^terms-&-conditions/$ terms-&-conditions.php
+
+
+
+
+
+RewriteRule ^(AdminBBeats|ConTrolsBeats|english|archives|phpmyadmin|videogallery)($|/) - [L]
+
+RewriteRule ^world-corona$ world-corona.php
+RewriteRule ^world-corona/$ world-corona.php
+
+RewriteRule ^TagsList$ TagsList.php
+RewriteRule ^TagsList/$ TagsList.php
+
+#RewriteRule ^tags/([^&]+)$ tags.php?tagname=$2 [NC,L]
+#RewriteRule ^tags/([^&]+)/$ tags.php?tagname=$2 [NC,L]
+
+RewriteRule ^photogallery/([^&]+)/([0-9]+)$ photogallery/index.php?albuminfo=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^photogallery/([^&]+)/([0-9]+)/$ photogallery/index.php?albuminfo=$2&%{QUERY_STRING} [NC,L]
+
+RewriteRule ^([^&]+)/drafts/([^&]+)$ drafts.php?nssl=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^([^&]+)/drafts/([^&]+)/$ drafts.php?nssl=$2&%{QUERY_STRING} [NC,L]
+
+RewriteRule ^([^&]+)/([0-9]+)$ details.php?nssl=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^([^&]+)/([0-9]+)/$ details.php?nssl=$2&%{QUERY_STRING} [NC,L]
+
+RewriteRule ^([^&]+)/([0-9]+)/([^&]+)$ details.php?nssl=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^([^&]+)/([0-9]+)/([^&]+)/$ details.php?nssl=$2&%{QUERY_STRING} [NC,L]
+
+RewriteRule ^([0-9]+)/([^&]+)$ category.php?newstype=$1
+RewriteRule ^([0-9]+)/([^&]+)/$ category.php?newstype=$1
+
+RewriteRule ^writer/([0-9]+)/([^&]+)$ reporter.php?newstype=$1&%{QUERY_STRING} [NC,L]
+RewriteRule ^writer/([0-9]+)/([^&]+)/$ reporter.php?newstype=$1&%{QUERY_STRING} [NC,L]
+
+
+
+RewriteRule ^tags/([^&]+)$ tags.php?tagname=$1 [NC,L]
+RewriteRule ^tags/([^&]+)/$ tags.php?tagname=$1 [NC,L]
+
+RewriteRule ^reactions/([^&]+)$ reactions.php?reactionname=$1 [NC,L]
+RewriteRule ^reactions/([^&]+)/$ reactions.php?reactionname=$1 [NC,L]
+
+#RewriteRule ^writers$ writers.php
+#RewriteRule ^writers/$ writers.php
+
+RewriteRule ^writers/([^&]+)$ writers.php?writers=$1 [NC,L]
+RewriteRule ^writers/([^&]+)/$ writers.php?writers=$1 [NC,L]
+
+#for division
+RewriteRule ^divisions/([\w]+)$ division.php?slug=$1&%{QUERY_STRING} [NC,L]
+RewriteRule ^divisions/([\w]+)/$ division.php?slug=$1&%{QUERY_STRING} [NC,L]
+
+#for district
+RewriteRule ^divisions/([\w]+)/([\w]+)$ district.php?slug=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^divisions/([\w]+)/([\w]+)/$ district.php?slug=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^districts/([\w]+)/([\w]+)$ district.php?slug=$2&%{QUERY_STRING} [NC,L]
+RewriteRule ^districts/([\w]+)/([\w]+)/$ district.php?slug=$2&%{QUERY_STRING} [NC,L]
+
+
+# for category slug
+RewriteRule ^([\w]+)$ category.php?slug=$1
+RewriteRule ^([\w]+)/$ category.php?slug=$1
+
+RewriteRule ^([\w]+)-([\w]+)$ category.php?slug=$1-$2
+RewriteRule ^([\w]+)-([\w]+)/$ category.php?slug=$1-$2
+
+# for details with category slug
+RewriteRule ^([\w]+)/news/([\w]-)$ details.php?nssl=$3
+RewriteRule ^([\w]+)/news/([\w]-)/$ details.php?nssl=$3
+
+RewriteRule ^([\w]+)-([\w]+)/news/([\w]-)$ details.php?nssl=$4
+RewriteRule ^([\w]+)-([\w]+)/news/([\w]-)/$ details.php?nssl=$4
+
+# for sub category slug
+RewriteRule ^([\w]+)/([\w]+)$ subCategory.php?cslug=$1&slug=$2
+RewriteRule ^([\w]+)/([\w]+)/$ subCategory.php?cslug=$1&slug=$2
+
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)$ subCategory.php?cslug=$1&slug=$2-$3
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/$ subCategory.php?cslug=$1&slug=$2-$3
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)$ subCategory.php?cslug=$1-$2&slug=$3
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/$ subCategory.php?cslug=$1-$2&slug=$3
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)$ subCategory.php?cslug=$1-$2&slug=$3-$4
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/$ subCategory.php?cslug=$1-$2&slug=$3-$4
+
+
+# for details with sub category slug
+RewriteRule ^([\w]+)/([\w]+)/([\w]-)$ details.php?nssl=$3
+RewriteRule ^([\w]+)/([\w]+)/([\w]-)/$ details.php?nssl=$3
+
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/([\w]-)$ details.php?nssl=$4
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/([\w]-)/$  details.php?nssl=$4
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/([\w]-)$  details.php?nssl=$4
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/([\w]-)/$  details.php?nssl=$4
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([\w]-)$  details.php?nssl=$5
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([\w]-)/$  details.php?nssl=$5
+
+#RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([0-9]+)/([^&]-)/$  details.php?nssl=$5
+#RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([0-9]+)/([^&]-)$  details.php?nssl=$5
+
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault				"access plus 1 month"
+
+##CSS
+ExpiresByType text/css			"access plus 1 year"
+
+##Data interchange
+ExpiresByType application/atom+xml	"access plus 1 hour"
+ExpiresByType application/rdf+xml	"access plus 1 hour"
+ExpiresByType application/rss+xml	"access plus 1 hour"
+
+ExpiresByType application/json		"access plus 0 seconds"
+ExpiresByType application/ld+json	"access plus 0 seconds"
+ExpiresByType application/schema+json	"access plus 0 seconds"
+ExpiresByType application/vnd.geo+json	"access plus 0 seconds"
+ExpiresByType application/xml		"access plus 0 seconds"
+ExpiresByType text/xml			"access plus 0 seconds"
+
+#Favicon (cannot be renamed!) and cursor images
+ExpiresByType image/vnd.microsoft.icon	"access plus 1 year"
+ExpiresByType image/x-icon		"access plus 1 year"
+
+#HTML
+ExpiresByType text/html			"access plus 0 seconds"
+
+#JavaScript
+ExpiresByType application/javascript	"access plus 1 year"
+ExpiresByType application/x-javascript	"access plus 1 year"
+ExpiresByType text/javascript		"access plus 1 year"
+
+#Manifest files
+ExpiresByType application/manifest+json	"access plus 1 week"
+ExpiresByType application/x-web-app-manifest+jso	"access plus 0 seconds"
+ExpiresByType text/cache-manifest	"access plus 0 seconds"
+
+
+#Media files
+ExpiresByType audio/ogg			"access plus 1 month"
+ExpiresByType image/bmp			"access plus 1 month"
+ExpiresByType image/gif			"access plus 1 month"
+ExpiresByType image/jpeg		"access plus 1 month"
+ExpiresByType image/png			"access plus 1 month"
+ExpiresByType image/svg+xml		"access plus 1 month"
+ExpiresByType image/webp		"access plus 1 month"
+ExpiresByType video/mp4			"access plus 1 month"
+ExpiresByType video/ogg			"access plus 1 month"
+ExpiresByType video/webm		"access plus 1 month"
+
+#Web fonts
+#Embedded OpenType (EOT)
+ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
+ExpiresByType font/eot			"access plus 1 year"
+
+#OpenType
+ExpiresByType font/opentype		"access plus 1 year"
+
+#TrueType
+ExpiresByType application/x-font-ttf	"access plus 1 year"
+
+#Web Open Font Format (WOFF) 1.0
+ExpiresByType application/font-woff	"access plus 1 year"
+ExpiresByType application/x-font-woff	"access plus 1 year"
+ExpiresByType font/woff			"access plus 1 year"
+
+#Web Open Font Format (WOFF) 2.0
+ExpiresByType application/font-woff2	"access plus 1 year"
+
+#Other
+ExpiresByType text/x-cross-domain-policy "access plus 1 week"
+</IfModule>
+
+ErrorDocument 400     /error.php
+ErrorDocument 401     /error.php
+ErrorDocument 403     /error.php
+ErrorDocument 404     /error.php
+ErrorDocument 500     /error.php
+ErrorDocument 501     /error.php
+ErrorDocument 502     /error.php
+ErrorDocument 503     /error.php
