@@ -105,6 +105,23 @@
                 </div>
             </div>
         </div>
+
+        <div class="breadcrump-area">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrump-wrapper">
+                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>services">Our Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aids-purchased-elsewhere">Hearing Aids Purchased Elsewhere</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
         <div class="hearing-health-area">
             <div class="row">
                 <div class="col-md-12">
@@ -140,9 +157,9 @@
                         <div class="col-md-12">
                             <div class="purpose-right">
                                 <p>To learn more about our philosophy to delivering services and ongoing care for our clients, please click on the Our Approach link.</p>
-                                <a href="our-approach.php" class="common-button btn" alt="Our 5 Step Approach to Successful Outcomes " title="Our 5 Step Approach to Successful Outcomes ">Our 5 Step Approach to Successful Outcomes </a>
+                                <a href="<?php echo $sSiteURL; ?>our-approach" class="common-button btn" alt="Our 5 Step Approach to Successful Outcomes " title="Our 5 Step Approach to Successful Outcomes ">Our 5 Step Approach to Successful Outcomes </a>
                                 <p>Are you ready to connect with your Hearing Buddy?</p>
-                                <a href="our-approach.php" class="common-button btn" alt="Book An Appointment Now " title="Book An Appointment Now ">Book An Appointment Now </a>
+                                <a href="<?php echo $sSiteURL; ?>contact" class="common-button btn" alt="Book An Appointment Now " title="Book An Appointment Now ">Book An Appointment Now </a>
                                  
                             
                             </div>

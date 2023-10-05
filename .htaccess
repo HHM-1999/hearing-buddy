@@ -96,6 +96,14 @@ RewriteRule ^preventing-hearing-loss$ preventing-hearing-loss.php
 RewriteRule ^technology-in-hearing-aids-today/$ technology-in-hearing-aids-today.php
 RewriteRule ^technology-in-hearing-aids-today$ technology-in-hearing-aids-today.php
 
+
+
+
+
+
+RewriteRule ^tinnitus-and-hearing/$ tinnitus-and-hearing.php
+RewriteRule ^tinnitus-and-hearing$ tinnitus-and-hearing.php
+
 RewriteRule ^types-of-hearing-aids/$ types-of-hearing-aids.php
 RewriteRule ^types-of-hearing-aids$ types-of-hearing-aids.php
 

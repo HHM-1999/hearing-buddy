@@ -104,7 +104,6 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>services">Our Services</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-screening">Hearing Screening</a></li>
                             </ol>
@@ -134,9 +133,9 @@
                                     <div class="purpose-right">
                                         <p>In a clinical environment, a screening test is a brief assessment that takes about 15-30minutes. It is intended to detect the presence of hearing difficulties in a broad sense. Failure to pass a hearing test does not automatically mean you have a major hearing problem, and screenings may not provide a complete diagnosis. Patients who do not pass the screening are usually recommended to get a hearing test.</p>
                                         <p>It’s a pretty straightforward exam that you can perform from the comfort of your own home.</p>
-                                        <a href="our-approach.php" class="common-button btn" alt="Free Online Hearing Test" title="Free Online Hearing Test">Free Online Hearing Test</a>
+                                        <a href="<?php echo $sSiteURL; ?>our-approach" class="common-button btn" alt="Free Online Hearing Test" title="Free Online Hearing Test">Free Online Hearing Test</a>
                                         <p class="pt-2">Are you ready to connect with your Hearing Buddy?</p>
-                                        <a href="our-approach.php" class="common-button btn" alt="Book An Appointment Now" title="Book An Appointment Now">Book An Appointment Now</a>
+                                        <a href="<?php echo $sSiteURL; ?>contact" class="common-button btn" alt="Book An Appointment Now" title="Book An Appointment Now">Book An Appointment Now</a>
 
 
 

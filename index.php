@@ -108,7 +108,6 @@
                         <div class="row g-0">
                             <div class="col-md-6">
                                 <img class="img-fluid w-100" src="<?php echo $sSiteURL; ?>media/imgAll/bg/s2.jpg" alt="">
-
                             </div>
                             <div class="col-md-6 details-wrapper-main d-flex align-items-md-center justify-content-center">
                                 <div class="banner-wrapper">
