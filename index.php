@@ -146,7 +146,7 @@
                                     <div class="slider-items-details">
                                         <h1>A Buddy that Cares</h1>
                                         <p>"You are not a number to us"</p>
-                                        <a href="#" alt="discover-more" title="discover-more">Discover More</a>
+                                        <a href="<?php echo $sSiteURL; ?>about" alt="discover-more" title="discover-more">Discover More</a>
                                     </div>
                                     <div class="bg-effect-1">
                                         <img class="img-fluid w-100" src="<?php echo $sSiteURL; ?>media/imgAll/bg/shape-363.svg" alt="">
@@ -178,7 +178,7 @@
                                     <div class="slider-items-details">
                                         <h1>A Buddy that understands Your Investment</h1>
                                         <p>"Time is of a great value, and we believe the greatest gift you can give someone is your time"</p>
-                                        <a href="https://www.hearingbuddy.com.au/about" alt="discover-more" title="discover-more">Discover More</a>
+                                        <a href="<?php echo $sSiteURL; ?>about" alt="discover-more" title="discover-more">Discover More</a>
                                     </div>
                                     <div class="bg-effect-1">
                                         <img class="img-fluid w-100" src="<?php echo $sSiteURL; ?>media/imgAll/bg/shape-363.svg" alt="">

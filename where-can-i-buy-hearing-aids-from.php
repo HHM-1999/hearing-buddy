@@ -108,16 +108,17 @@
         <div class="breadcrump-area">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrump-wrapper">
-                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aids">Hearing Aids</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>where-can-i-buy-hearing-aids-from">Where Can I Buy Hearing Aids From</a></li>
-                            </ol>
-                        </nav>
+                    <div class="col-md-12">
+                        <div class="breadcrump-wrapper">
+                            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aids">Hearing Aids</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>where-can-i-buy-hearing-aids-from">Where Can I Buy Hearing Aids From</a></li>
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -160,7 +161,7 @@
                                     </div>
                                     <div class="col-md-5 d-flex align-items-center justify-content-center">
                                         <div class="aid-price-img">
-                                            <img class="img-fluid" src="<?php echo $sSiteURL?>media/imgAll/bg/heroBg5.webp" alt="">
+                                            <img class="img-fluid" src="<?php echo $sSiteURL ?>media/imgAll/bg/heroBg5.webp" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -183,14 +184,14 @@
                                         <p><span>The Australian Competition and Consumer Commission</span> distinguishes between healthy competition that supports fair prices and competition that local independents just cannot afford. Large scale international corporations are able to sell their products at a lesser price due to their purchasing power. Local businesses are unable to compete and are forced to close their doors.</p>
                                         <p>Consequently, this is a major issue for local Australian firms. However, the problem does not end there. For patients with hearing loss, reduced prices come at a price.</p>
                                         <p>Find out WHO OWNS WHO?</p>
-                                        <a href="<?php echo $sSiteURL?>independent-sa-owner" class="common-button btn" alt="Buddy Pack" title="Buddy Pack">WHO OWNS WHO</a>
-                                        
+                                        <a href="<?php echo $sSiteURL ?>independent-sa-owner" class="common-button btn" alt="Buddy Pack" title="Buddy Pack">WHO OWNS WHO</a>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="accordion-area-choose">
                         <div class="container">
                             <div class="row">
@@ -206,7 +207,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingOne">
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Less In Every Sense 
+                                                    Less In Every Sense
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -220,7 +221,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingTwo">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Driven By Incentives 
+                                                    Driven By Incentives
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -234,7 +235,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingThree">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Limited Options 
+                                                    Limited Options
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -248,7 +249,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingFour">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Restricted Flexibility 
+                                                    Restricted Flexibility
                                                 </button>
                                             </h2>
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">

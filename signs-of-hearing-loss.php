@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-health">Hearing Health</a></li>
                                 <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>signs-of-hearing-loss">Signs of Hearing Loss</a></li>
                             </ol>
@@ -127,7 +128,7 @@
                     <div class="purpose-right">
                         <h3>Hearing loss may develop gradually over time or come unexpectedly and may be indicated by one or more symptoms. Here are a few signs to look out for if you suspect you have hearing loss:</h3>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
                             <div class="col-md-3 d-flex justify-content-center">
                                 <div class="brand-img">
@@ -145,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
 
                             <div class="col-md-9 d-flex">
@@ -164,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
                             <div class="col-md-3 d-flex justify-content-center">
                                 <div class="brand-img">
@@ -182,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
 
                             <div class="col-md-9 d-flex">
@@ -201,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
                             <div class="col-md-3 d-flex justify-content-center">
                                 <div class="brand-img">
@@ -219,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
 
                             <div class="col-md-9 d-flex">
@@ -238,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
                             <div class="col-md-3 d-flex justify-content-center">
                                 <div class="brand-img">
@@ -256,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-area pt-3">
+                    <div class="experience-area pt-4">
                         <div class="row">
                         
                             <div class="col-md-9 d-flex">

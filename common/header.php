@@ -52,7 +52,7 @@
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>pre-employment-test">Pre-Employment Test</a></li>
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>custom-ear-plugs">Custom Ear Plugs</a></li>
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>work-cover-assessment">Work Cover Assessment</a></li>
-													<li><a class="dropdown-item" href="#">Hearing Aid fitting and follow up</a></li>
+													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>hearing-aid-fitting-&-follow-up-free">Hearing Aid fitting and follow up</a></li>
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>hearing-aid-check-and-adjust">Hearing Aid Check and Adjust</a></li>
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>warranty-recalls">End of Warranty Recalls</a></li>
 													<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>hearing-aids-purchased-elsewhere">Hearing Aids Purchased Elsewhere</a></li>
@@ -60,7 +60,7 @@
 												</ul>
 											</li>
 											<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>our-approach">Our Approach</a></li>
-											<li><a class="dropdown-item" href="services-for-pensioners-and-veterans.php">Services For Pensioners and Veterans</a></li>
+											<li><a class="dropdown-item" href="<?php echo $sSiteURL; ?>services-for-pensioners-and-veterans">Services For Pensioners and Veterans</a></li>
 										</ul>
 									</li>
 									<li class="nav-item dropdown">
@@ -144,9 +144,9 @@
 					</div> -->
 				</div>
 				<li><a href="<?php echo $sSiteURL; ?>">Home</a></li>
-				<li><a href="">About Us</a></li>
+				<li><a href="<?php echo $sSiteURL; ?>about">About Us</a></li>
 				<li class="parent">
-					<a href="#">Our Services</a>
+					<a href="<?php echo $sSiteURL; ?>services">Our Services</a>
 					<ul class="SubMenuM">
 						<li class="parent">
 							<a href="#">All services</a>
@@ -159,43 +159,43 @@
 								<li><a href="<?php echo $sSiteURL; ?>pre-employment-test">Pre-Employment Test</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>custom-ear-plugs">Custom Ear Plugs</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>work-cover-assessment">Work Cover Assessment</a></li>
-								<li><a href="#">Hearing Aid fitting and follow up</a></li>
+								<li><a href="<?php echo $sSiteURL; ?>hearing-aid-fitting-&-follow-up-free">Hearing Aid fitting and follow up</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>hearing-aid-check-and-adjust">Hearing Aid Check and Adjust</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>warranty-recalls">End of Warranty Recalls</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>hearing-aids-purchased-elsewhere">Hearing Aids Purchased Elsewhere</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>tinnitus-assessment">Tinnitus Assessment</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Our Approach</a></li>
-						<li><a href="#">Services For Pensioners and Veterans</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>our-approach">Our Approach</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>services-for-pensioners-and-veterans">Services For Pensioners and Veterans</a></li>
 
 					</ul>
 				</li>
 				<li class="parent">
-					<a href="#">Hearing Aids</a>
+					<a href="<?php echo $sSiteURL; ?>hearing-aids">Hearing Aids</a>
 					<ul class="SubMenuM">
-						<li><a href="#">BUDDY PACK</a></li>
-						<li><a href="#">Choosing a Hearing Aid</a></li>
-						<li><a href="#">Hearing Aid Prices</a></li>
-						<li><a href="#">Where Can I Buy Hearing Aids From?</a></li>
-						<li><a href="#">Technology in Hearing Aids Today</a></li>
-						<li><a href="#">Types Of Hearing Aids</a></li>
-						<li><a href="#">Our Brands</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>buddy-pack">BUDDY PACK</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>choosing-a-hearing-aid">Choosing a Hearing Aid</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>hearing-aid-prices">Hearing Aid Prices</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>where-can-i-buy-hearing-aids-from">Where Can I Buy Hearing Aids From?</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>technology-in-hearing-aids-today">Technology in Hearing Aids Today</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>types-of-hearing-aids">Types Of Hearing Aids</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>our-brands">Our Brands</a></li>
 					</ul>
 				</li>
 				<li class="parent">
-					<a href="">Hearing Health</a>
+					<a href="<?php echo $sSiteURL; ?>hearing-health">Hearing Health</a>
 					<ul class="SubMenuM">
-						<li><a href="#">How Hearing Works ?</a></li>
-						<li><a href="#">Understanding Your Hearing Test</a></li>
-						<li><a href="#">Untreated Hearing Loss: Why Does It Matter?</a></li>
-						<li><a href="#">Communicating And Supporting People With Hearing Loss</a></li>
-						<li><a href="#">Cerumen – Ear Wax Management</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>understanding-how-hearing-works">How Hearing Works ?</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>understanding-your-hearing-test">Understanding Your Hearing Test</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>untreated-hearing-loss-why-does-it-matter">Untreated Hearing Loss: Why Does It Matter?</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>communicating-and-supporting-people-with-hearing-loss">Communicating And Supporting People With Hearing Loss</a></li>
+						<li><a href="<?php echo $sSiteURL; ?>ear-wax-management">Cerumen – Ear Wax Management</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Tinnitus Management</a></li>
-				<li><a href="#">Contact </a></li>
-				<li><a href="#">Book Now </a></li>
+				<li><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
+				<li><a href="<?php echo $sSiteURL; ?>contact">Contact </a></li>
+				<li><a href="<?php echo $sSiteURL; ?>contact">Book Now </a></li>
 			</ul>
 
 		</div>

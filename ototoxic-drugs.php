@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>causes-of-tinnitus">Causes Of Tinnitus</a></li>
                                 <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>ototoxic-drugs">Ototoxic Drugs</a></li>
@@ -127,7 +128,7 @@
                 <div class="purpose-section">
                     <div class="purpose-wrapper">
                         <div class="row">
-                            <div class="col-md-7 d-flex align-items-center">
+                            <div class="col-md-8 d-flex align-items-center">
                                 <div class="purpose-right">
                                    <p>Tinnitus is a potential side-effect of many prescription medications. However, in most cases and for most drugs, tinnitus is an acute, short-lived side-effect; if the patient stops taking the medication, the tinnitus symptoms typically recede.</p>
                                 <h3>Some drugs that can cause or worsen tinnitus:</h3>
@@ -143,7 +144,7 @@
                                 <p>If you are worried about tinnitus as a side effect of your medications, please consult your subscribing Doctor. You should not stop taking any medication without first consulting with your healthcare provider. The risks of stopping a medication may far exceed any potential benefit.</p>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-end align-items-center">
+                            <div class="col-md-4 d-flex justify-content-end align-items-center">
                                 <div class="purpose-left">
                                     <div class="tinnitud-img">
                                         <img class="img-fluid pt-0" src="<?php echo $sSiteURL ?>/media/imgAll/bg/Post-Traumatic-Tinnitus.jpg" alt="" title="">

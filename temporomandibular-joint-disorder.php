@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>causes-of-tinnitus">Causes Of Tinnitus</a></li>
                                 <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>temporomandibular-joint-disorder">Temporomandibular Joint Disorder</a></li>
@@ -127,13 +128,13 @@
                 <div class="purpose-section">
                     <div class="purpose-wrapper">
                         <div class="row">
-                            <div class="col-md-7 d-flex align-items-center">
+                            <div class="col-md-9 d-flex align-items-center">
                                 <div class="purpose-right">
                                     <p>Tinnitus induced by temporomandibular joint disease is another kind of somatic tinnitus. The lower jaw joins the skull at the temporomandibular joint (TMJ), which is placed in front of the ears. TMJ is located near to the auditory system and shares ligaments and nerve connections with middle ear components. Damage to the muscles, ligaments, or cartilage in the TMJ can lead to tinnitus symptoms. </p>
                                     <p>Tinnitus patients with TMJ disorders have facial and/or jaw pain, limited jaw movement, and regular popping sounds while chewing or talking. TMJ disorders can be diagnosed and treated by a dentist, craniofacial surgeon, or other oral health expert. Fixing TMJ issues often reduces tinnitus symptoms.</p>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-end">
+                            <div class="col-md-3 d-flex justify-content-end">
                                 <div class="purpose-left">
                                     <div class="tinnitud-img">
                                         <img class="img-fluid pt-0" src="<?php echo $sSiteURL ?>/media/imgAll/bg/temporomandibular-joint-disorders-853x853.jpg" alt="" title="">

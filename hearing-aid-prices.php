@@ -108,16 +108,17 @@
         <div class="breadcrump-area">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrump-wrapper">
-                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aids">Hearing Aids</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aid-prices">Hearing Aid Prices</a></li>
-                            </ol>
-                        </nav>
+                    <div class="col-md-12">
+                        <div class="breadcrump-wrapper">
+                            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aids">Hearing Aids</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-aid-prices">Hearing Aid Prices</a></li>
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -200,7 +201,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingFour">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Why are hearing aids so expensive? 
+                                                    Why are hearing aids so expensive?
                                                 </button>
                                             </h2>
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -216,7 +217,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingFive">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                Why should I purchase hearing aids? 
+                                                    Why should I purchase hearing aids?
                                                 </button>
                                             </h2>
                                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -250,7 +251,7 @@
                                     </div>
                                     <div class="col-md-5 d-flex align-items-center justify-content-center">
                                         <div class="aid-price-img">
-                                            <img class="img-fluid" src="<?php echo $sSiteURL?>media/imgAll/bg/yoga.webp" alt="">
+                                            <img class="img-fluid" src="<?php echo $sSiteURL ?>media/imgAll/bg/yoga.webp" alt="">
                                         </div>
                                     </div>
                                 </div>

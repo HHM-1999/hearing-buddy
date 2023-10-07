@@ -108,17 +108,18 @@
         <div class="breadcrump-area">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrump-wrapper">
-                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                            <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
-                                <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>causes-of-tinnitus">Causes Of Tinnitus</a></li>
-                                <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>obstructions-middle-ear">Obstructions in the Middle Ear</a></li>
-                            </ol>
-                        </nav>
+                    <div class="col-md-12">
+                        <div class="breadcrump-wrapper">
+                            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>causes-of-tinnitus">Causes Of Tinnitus</a></li>
+                                    <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>obstructions-middle-ear">Obstructions in the Middle Ear</a></li>
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -128,16 +129,16 @@
                     <div class="purpose-wrapper">
                         <div class="row">
                             <div class="col-md-7 ">
-                            <div class="purpose-right">
-                                        <p><span>Blockages in the ear canal can cause pressure to build up in the inner ear, affecting the operation of the ear drum. Moreover, objects directly touching the ear drum can irritate the organ and cause the perception of tinnitus symptoms. Common obstructions include:</span></p>
-                                        <ul>
-                                            <li>Excessive ear wax (ceruminous)</li>
-                                            <li>Head congestion </li>
-                                            <li>Loose hair from the ear canal </li>
-                                            <li>Dirt or foreign objects </li> 
-                                        </ul>
-                                        <p>In many cases, the removal of the blockage will alleviate tinnitus symptoms. However, in some situations, the blockage may have caused permanent damage that leads to chronic tinnitus.</p>
-                                    </div>
+                                <div class="purpose-right">
+                                    <p><span>Blockages in the ear canal can cause pressure to build up in the inner ear, affecting the operation of the ear drum. Moreover, objects directly touching the ear drum can irritate the organ and cause the perception of tinnitus symptoms. Common obstructions include:</span></p>
+                                    <ul>
+                                        <li>Excessive ear wax (ceruminous)</li>
+                                        <li>Head congestion </li>
+                                        <li>Loose hair from the ear canal </li>
+                                        <li>Dirt or foreign objects </li>
+                                    </ul>
+                                    <p>In many cases, the removal of the blockage will alleviate tinnitus symptoms. However, in some situations, the blockage may have caused permanent damage that leads to chronic tinnitus.</p>
+                                </div>
                             </div>
                             <div class="col-md-5 d-flex justify-content-end">
                                 <div class="purpose-left">
@@ -149,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
 

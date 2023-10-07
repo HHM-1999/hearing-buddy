@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-health">Hearing Health</a></li>
                                 <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>how-hearing-aids-can-help">How Hearing Aids Can Help</a></li>
                             </ol>
@@ -177,7 +178,7 @@
                                                         <h3>How can we help?</h3>
                                                         <p>If you suspect you or a loved one suffers from hearing loss, don’t delay, and seek support immediately. A baseline hearing test, appropriate treatment options, and minor lifestyle adjustments can result in significant improvements to your hearing health. Schedule an appointment with Hearing Buddy and take the first step towards a lifetime of improved hearing.</p>
                                                         <div class="see-more">
-                                                            <a class="common-button btn text-center" href="#">Find Out More</a>
+                                                            <a class="common-button btn text-center" href="<?php echo $sSiteURL; ?>contact">Find Out More</a>
                                                         </div>
 
                                                     </div>

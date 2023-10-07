@@ -267,7 +267,7 @@
                                 <h3>How can we help?</h3>
                                 <p>If you suspect you or a loved one suffers from hearing loss, don’t delay, and seek support immediately. A baseline hearing test, appropriate treatment options, and minor lifestyle adjustments can result in significant improvements to your hearing health. Schedule an appointment with Hearing Buddy and take the first step towards a lifetime of improved hearing.</p>
                                 <div class="see-more">
-                                    <a class="common-button btn text-center" href="#">Find Out More</a>
+                                    <a class="common-button btn text-center" href="<?php echo $sSiteURL; ?>contact">Find Out More</a>
                                 </div>
                             </div>
                         </div>

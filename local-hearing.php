@@ -122,13 +122,15 @@
             </div>
         </div>
         <div class="hearing-health-area">
-            <div class="row">
+        <div class="container">
+        <div class="row">
                 <div class="col-md-12">
                     <div class="heading">
                         <h2>Committed in providing exceptional service, underpinned with a premium level of care and compassion!</h2>
                     </div>
                 </div>
             </div>
+        </div>
             <div class="hearing-aid-wrapper">
             <div class="our-purpose-area">
                 <div class="container">

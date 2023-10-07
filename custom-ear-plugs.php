@@ -100,16 +100,17 @@
         <div class="breadcrump-area">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrump-wrapper">
-                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>services">Our Services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>custom-ear-plugs">Custom Ear Plugs</a></li>
-                            </ol>
-                        </nav>
+                    <div class="col-md-12">
+                        <div class="breadcrump-wrapper">
+                            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>services">Our Services</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>custom-ear-plugs">Custom Ear Plugs</a></li>
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -151,7 +152,7 @@
                                         <p>Utilize these personalised ear plugs to protect your hearing from the damage that industrial noise may inflict, or to simply find some peace and quiet in a busy world.</p>
                                         <h3>MUSICIAN EAR PLUGS</h3>
                                         <p>If you are frequently exposed to loud music, musician ear plugs can help preserve your hearing from lasting harm. Unlike standard ear plugs, which distort the sound you hear, musician ear plugs filter sound evenly across all frequencies. These specialised ear plugs reduce the volume without sacrificing the quality of the music.</p>
-                                        
+
                                     </div>
 
                                 </div>

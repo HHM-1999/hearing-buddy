@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-health">Hearing Health</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>ear-wax-management">Ear Wax Management</a></li>
                             </ol>
@@ -134,12 +135,12 @@
                         </div>
                         <div class="purpose-wrapper">
                             <div class="row">
-                                <div class="col-md-6 d-flex align-items-center">
+                                <div class="col-md-9 d-flex align-items-center">
                                     <div class="purpose-right">
                                         <p>Earwax, sometimes referred to as cerumen is a natural barrier that is made by sebaceous and apocrine sweat glands in the ear canal. Its purpose is to clean and protect the ears by trapping dirt and bacteria so they cannot get further inside the ear and create an ear infection. Occasionally, it can become impacted, resulting in blocked ears, ear discomfort, and temporary hearing loss. Earwax vary in colour from bright yellow to dark brown and can be dry or wet and still serve the same purposes.</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 d-flex justify-content-center">
+                                <div class="col-md-3 d-flex justify-content-center">
                                     <div class="ear-wax-img">
                                         <img src="<?php echo $sSiteURL; ?>media/imgAll/bg/Earworx.webp" class="img-fluid img100">
                                     </div>

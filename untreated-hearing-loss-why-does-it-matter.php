@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>hearing-health">Hearing Health</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="<?php echo $sSiteURL; ?>untreated-hearing-loss-why-does-it-matter">Untreated Hearing Loss</a></li>
                             </ol>
@@ -273,12 +274,12 @@
                                             </div>
                                         </div>
                                         <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingSeven">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            <h2 class="accordion-header" id="headingNine">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                                     Mental Exhaustion and Fatigue
                                                 </button>
                                             </h2>
-                                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <div class="accordian-desc">
                                                         <p>Communication can be exhausting when it’s tough to hear. This is due to the fact that comprehension necessitates greater mental exertion. In social situations, restaurants, or large groups, where you may have to focus even harder to understand what others are saying, this can be very exhausting. </p>

@@ -112,6 +112,7 @@
                     <div class="breadcrump-wrapper">
                         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                             <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="http://localhost/HearingBuddyNew/">Home</a></li>
                             <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>tinnitus-management">Tinnitus Management</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="<?php echo $sSiteURL; ?>causes-of-tinnitus">Causes Of Tinnitus</a></li>
                                 <li class="breadcrumb-item active"><a href="<?php echo $sSiteURL; ?>other-diseases-&-medical-conditions">Other Diseases & Medical Conditions</a></li>
@@ -127,7 +128,7 @@
                 <div class="purpose-section">
                     <div class="purpose-wrapper">
                         <div class="row">
-                            <div class="col-md-7 d-flex align-items-center">
+                            <div class="col-md-8 d-flex align-items-center">
                                 <div class="purpose-right">
                                 <h3>Tinnitus is a reported symptom of the following medical conditions: </h3>
                                 <ul>
@@ -141,7 +142,7 @@
                                 <p>Again, a person experiencing tinnitus should not assume that he/she has one of the medical conditions listed above. Only a trained healthcare provider can appropriately diagnose the underlying cause of tinnitus.</p>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-end align-items-center">
+                            <div class="col-md-4 d-flex justify-content-end align-items-center">
                                 <div class="purpose-left">
                                     <div class="tinnitud-img">
                                         <img class="img-fluid pt-0" src="<?php echo $sSiteURL ?>/media/imgAll/bg/2-275x275.png" alt="" title="">
