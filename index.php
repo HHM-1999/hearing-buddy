@@ -1,33 +1,27 @@
 <?php include_once "common/config.php"; ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title><?php echo $sSiteTitle; ?></title>
-
     <?php echo $sAddSense;
     echo $sGAnalytics;
     echo $sGTagHead;
     echo $sDomainVerification;
     echo $sMSClarity; ?>
-
     <meta name="description" content="<?php echo $sSiteTitle; ?>">
     <meta name="keywords" content="<?php echo $sSiteTitle; ?>">
-
     <meta name="author" content="<?php echo $sAuthor; ?>">
     <meta name="Developer" content="<?php echo $sDeveloper; ?>">
     <meta name="resource-type" content="document">
     <meta name="contact" content="<?php echo $sEmail; ?>">
     <meta name="copyright" content="Copyright (c) <?php echo gmdate("Y"); ?>. All Rights &reg; Reserved by <?php echo $sSiteURL; ?>.">
-
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta name="googlebot-news" content="index, follow">
     <meta name="msnbot" content="index, follow">
-
     <meta property="fb:pages" content="<?php echo $sFBPageID; ?>">
     <meta property="fb:app_id" content="<?php echo $sAppId; ?>">
     <meta property="og:site_name" content="<?php echo $sSiteName; ?>">
@@ -37,29 +31,23 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="<?php echo $sLogoURLfb; ?>">
     <meta property="og:locale" content="en_US">
-
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="<?php echo $sSiteName; ?>">
     <meta name="twitter:title" content="<?php echo $sSiteTitle; ?>">
     <meta name="twitter:description" content="<?php echo $sSiteTitle; ?>">
     <meta name="twitter:image" content="<?php echo $sLogoURLfb; ?>">
-
     <link rel="image_src" href="<?php echo $sLogoURLfb; ?>">
     <link rel="canonical" href="<?php echo $sSiteURL; ?>">
-
     <link type="image/x-icon" rel="shortcut icon" href="<?php echo $sFavicon; ?>">
     <link type="image/x-icon" rel="icon" href="<?php echo $sFavicon; ?>">
-
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Titillium+Web:wght@400;600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-
     <?php
     echo $sCSSBootStrap;
     echo $sCSSFontAwesome;
     echo $sCSSSlick;
     echo $sCSSEMM;
     ?>
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
@@ -87,19 +75,14 @@
     </script>
 
 </head>
-
 <body>
     <?php
     echo $sGTagBody;
     echo $sFbRoot; ?>
-
     <?php include_once "common/header.php"; ?>
-
     <!-- Back to top button -->
     <a id="button"><i class="fas fa-chevron-up"></i></a>
-
     <main>
-
         <!-- hero area -->
         <section class="hero-area">
             <div class="container-fluid">
@@ -230,7 +213,6 @@
             </div>
         </section>
         <!-- hero area end -->
-
         <!-- services area -->
         <section class="services-area">
             <div class="container">
@@ -256,7 +238,6 @@
                                         <i class="fas fa-arrow-right"></i>
                                     </div>
                                 </div>
-
                             </a>
                         </div>
                     </div>
@@ -386,7 +367,6 @@
             </div>
         </section>
         <!-- services area end -->
-
         <!-- Hearing Aids -->
         <section class="aid-area">
             <div class="container">
@@ -526,7 +506,6 @@
                 </div>
         </section>
         <!-- details area end -->
-
         <!-- facilities area -->
         <section class="facilities-area">
             <div class="container">
@@ -645,7 +624,6 @@
             </div>
         </section>
         <!-- facilities area end -->
-
         <!-- flip card area -->
         <section class="testing-area">
             <div class="container">
@@ -668,7 +646,6 @@
             </div>
         </section>
         <!-- flip card area end -->
-
         <!-- owner area -->
         <section class="owner-section">
             <div class="row">
@@ -694,7 +671,6 @@
                 </div>
         </section>
         <!-- owner area end -->
-
         <!-- ear wax area -->
         <section class="earwax-area">
             <div class="container">
@@ -727,7 +703,6 @@
             </div>
         </section>
         <!-- ear wax area end -->
-
         <!-- tinnitus management -->
         <section class="management-area">
             <div class="container">
@@ -754,7 +729,6 @@
             </div>
         </section>
         <!-- tinnitus management end -->
-
         <!-- serve-location -->
         <section class="serve-area">
             <div class="container">
