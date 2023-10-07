@@ -511,7 +511,7 @@ nav ul li:hover>ul {
 
 
 /* ----- hero area  ---- */
-.banner-container {}
+
 
 .hero-area .priv_arrow {
   position: absolute;
@@ -675,7 +675,6 @@ nav ul li:hover>ul {
   margin-bottom: 56px;
 }
 
-.servcie-wrapper a h3 {}
 
 .servcie-wrapper a .goto-icon {
   transition: all 0.3s ease;
@@ -1090,7 +1089,6 @@ nav ul li:hover>ul {
   margin-bottom: 24px;
 }
 
-.facility-wrapper {}
 
 .facility-text-wrapper h3 {
   font-size: 18px;
@@ -1212,9 +1210,6 @@ nav ul li:hover>ul {
   padding-bottom: 18px;
   font-weight: 400;
 }
-
-.feedback .common-button {}
-
 .owner-bg {
   background-color: #f0f0f0;
 }
@@ -1767,18 +1762,6 @@ nav ul li:hover>ul {
 .experience-area .brand-details {
   width: 100%;
 }
-
-.experience-area::after {
-  /* position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  width: 75%;
-  height: 100%;
-  background-color: var(--primary);
-  clip-path: polygon(2% 0%, 100% 0%, 100% 100%, 0% 100%); */
-}
-
 .experience-details h3 {
   color: #fff;
   font-size: 28px;
@@ -2791,7 +2774,7 @@ p.description {
 }
 
 
-@container timeline (max-width: 640px) {
+@container timeline (max-width: 640px){
   .timeline {
     flex-direction: column !important;
   }
