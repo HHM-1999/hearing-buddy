@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex align-items-center justify-content-center">
+                            <div class="col-md-5 d-flex align-items-center justify-content-end">
                                 <div class="tinnitud-img">
                                     <img class="img-fluid" src="<?php echo $sSiteURL; ?>media/imgAll/bg/tinnitus-hearing-buddy-australia-684x684.jpg" alt="">
                                 </div>

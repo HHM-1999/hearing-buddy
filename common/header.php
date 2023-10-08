@@ -151,7 +151,9 @@
 						<li class="parent">
 							<a href="#">All services</a>
 							<ul class="SubMenuM">
-								<li><a href="<?php echo $sSiteURL; ?>ear-wax-removal">Ear Wax Removal</a></li>
+								<li><a href="<?php echo $sSiteURL; ?>ear-wax-removal
+								
+								">Ear Wax Removal</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>hearing-screening">Hearing Screening</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>90-minute-initial-comprehensive">90 Min Initial Comprehensive Hearing Assessment</a></li>
 								<li><a href="<?php echo $sSiteURL; ?>diagnostic-assessment">Diagnostic Assessment</a></li>
